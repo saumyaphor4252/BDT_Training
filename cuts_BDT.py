@@ -9,7 +9,6 @@ supercut = '   mll>12 \
             && PuppiMET_pt > 20 \
             && (Lepton_pdgId[0]*Lepton_pdgId[1] == -11*13) \
             && mll > 50 \
-            && Alt$(CleanJet_pt[0], 0) > 30. \
                '
 '''
 ##  signal regions

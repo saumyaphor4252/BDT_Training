@@ -10,8 +10,8 @@ def runJob():
     TMVA.Tools.Instance()
     TMVA.PyMethodBase.PyInitialize()
 
-    dataloader = TMVA.DataLoader('Optimizing_top-antitop_bg_v1')
-    output = TFile.Open('TMVA_Optimizing_top-antitop_bg_v1.root', 'RECREATE')
+    dataloader = TMVA.DataLoader('Optimizing_top-antitop_bg_v2')
+    output = TFile.Open('TMVA_Optimizing_top-antitop_bg_v2.root', 'RECREATE')
     factory = TMVA.Factory('TMVAClassification', output,
             '!V:!Silent:Color:DrawProgressBar:AnalysisType=Classification')
 

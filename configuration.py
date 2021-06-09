@@ -9,9 +9,6 @@ tagName = ''
 # luminosity to normalize to (in 1/fb)
 lumi = 41.5
 
-# file with list of variables
-#variablesFile = os.path.join(configDir,'variables.py')
-
 # file with list of cuts
 cutsFile = os.path.join(configDir,'cuts_BDT.py' )
 
@@ -20,7 +17,4 @@ samplesFile = os.path.join(configDir,'samples_BDT.py' )
 
 # structure file for datacard
 structureFile = os.path.join(configDir,'structure.py')
-
-# file with TTree aliases
-#aliasesFile = os.path.join(configDir,'aliases.py')
 
